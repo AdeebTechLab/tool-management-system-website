@@ -4,7 +4,7 @@ Orbit is a lightweight, responsive project board built with plain HTML, CSS, and
 
 ## Run it
 
-Install Node.js, then run `npm run dev` in this folder and open the URL printed in the terminal. The server uses port 3000 by default and automatically tries the next available port (up to 3100) if 3000 is already in use. Set `PORT` to choose a specific port. You can also run `npm start`. The included server uses Node's built-in modules; there are no packages to install. You can also open `index.html` directly in a modern browser.
+Install Node.js, then run `npm install` and `npm run dev` in this folder and open the URL printed in the terminal. The server uses port 3000 by default and automatically tries the next available port (up to 3100) if 3000 is already in use. Set `PORT` to choose a specific port. You can also run `npm start`. The app uses Vite to bundle its JavaScript for production deployment.
 
 ## Demo data
 

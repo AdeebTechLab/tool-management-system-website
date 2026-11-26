@@ -4,7 +4,11 @@
   "private": true,
   "description": "A lightweight project board app built with vanilla HTML, CSS, and JavaScript.",
   "scripts": {
+    "build": "vite build",
     "dev": "node server.js",
     "start": "node server.js"
+  },
+  "devDependencies": {
+    "vite": "^8.4.0"
   }
 }
