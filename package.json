@@ -1,13 +1,10 @@
 {
-  "name": "orbit-project-workspace",
-  "private": true,
+  "name": "orbit-project-boards",
   "version": "1.0.0",
-  "type": "module",
+  "private": true,
+  "description": "A lightweight project board app built with vanilla HTML, CSS, and JavaScript.",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "devDependencies": {
-    "vite": "^7.0.0"
+    "dev": "node server.js",
+    "start": "node server.js"
   }
 }
